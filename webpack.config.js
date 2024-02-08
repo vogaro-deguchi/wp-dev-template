@@ -76,7 +76,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: '../../../styles/pages/[name]/style.bundle.css'
+      filename: '../../../assets/styles/pages/[name]/style.bundle.css'
     })
   ],
   watchOptions: {
