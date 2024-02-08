@@ -1,0 +1,50 @@
+html {
+  font-size: 2.666666667vw;
+
+  @include media-breakpoint-up(md) {
+    font-size: 0.625vw;
+  }
+}
+
+body {
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-feature-settings: "palt" 1;
+  line-height: 1.75;
+  color: #000;
+  letter-spacing: 0;
+  background-color: #fce5e6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.7rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+ol,
+ul {
+  list-style: none;
+}

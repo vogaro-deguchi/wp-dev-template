@@ -1,0 +1,50 @@
+{
+  "name": "strawberryfetish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deguchi37458/vogaro-exam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deguchi37458/vogaro-exam/issues"
+  },
+  "homepage": "https://github.com/deguchi37458/vogaro-exam#readme",
+  "dependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.18.2",
+    "@splidejs/splide": "^4.1.4",
+    "axios": "^0.27.2",
+    "babel-loader": "^8.2.5",
+    "core-js": "^3.23.3",
+    "css-loader": "^6.7.1",
+    "gsap": "^3.10.4",
+    "jquery": "^3.6.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "regenerator-runtime": "^0.13.9",
+    "ress": "^5.0.2",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.1",
+    "swiper": "^8.2.4",
+    "vue": "^2.6.14",
+    "stylelint": "^9.10.1",
+    "stylelint-config-prettier": "^5.0.0",
+    "stylelint-config-recess-order": "^2.0.1",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^2.0.0",
+    "stylelint-prettier": "^1.0.6",
+    "stylelint-scss": "^3.5.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

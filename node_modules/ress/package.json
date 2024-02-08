@@ -1,0 +1,29 @@
+{
+  "name": "ress",
+  "description": "A modern CSS reset",
+  "version": "5.0.2",
+  "author": "Filipe Linhares",
+  "bugs": {
+    "url": "https://github.com/filipelinhares/ress/issues"
+  },
+  "devDependencies": {
+    "cssnano": "^5.1.1",
+    "postcss-cli": "^9.1.0",
+    "stylelint": "^14.5.3"
+  },
+  "homepage": "https://github.com/filipelinhares/ress",
+  "keywords": [
+    "css",
+    "reset"
+  ],
+  "license": "MIT",
+  "main": "dist/ress.min.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filipelinhares/ress.git"
+  },
+  "scripts": {
+    "compile": "postcss ress.css --no-map -u cssnano -o dist/ress.min.css",
+    "test": "stylelint ress.css"
+  }
+}
