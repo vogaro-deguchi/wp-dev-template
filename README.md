@@ -7,6 +7,7 @@
 
 ## ディレクトリ構成(themes以下)
 
+ ```
 themes
 └── wp-dev
     ├── assets
@@ -23,5 +24,7 @@ themes
     │           └── index.bundle.css
     ├── style.css
     └── index.php
+ ```
+
 
 
